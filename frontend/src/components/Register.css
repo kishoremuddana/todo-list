@@ -1,0 +1,74 @@
+/* ================================
+   REGISTER PAGE
+================================ */
+
+.register-card {
+  min-height: 640px;
+}
+
+
+/* ================================
+   REGISTER BRAND
+================================ */
+
+.register-brand {
+  background:
+    linear-gradient(
+      145deg,
+      #861343,
+      #a62961
+    );
+}
+
+.register-brand h1 {
+  margin: 55px 0 14px;
+
+  max-width: 300px;
+
+  color: #ffffff;
+
+  font-size: 34px;
+
+  line-height: 1.12;
+
+  font-weight: 750;
+
+  letter-spacing: -0.8px;
+}
+
+
+/* ================================
+   REGISTER FORM
+================================ */
+
+.register-card .auth-form {
+  gap: 16px;
+}
+
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 750px) {
+
+  .register-card {
+    min-height: auto;
+  }
+
+  .register-brand h1 {
+    margin-top: 35px;
+
+    font-size: 30px;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .register-brand h1 {
+    font-size: 27px;
+  }
+
+}
