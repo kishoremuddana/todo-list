@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const API_URL = "https://todo-list-a3zn.onrender.com/";
+const API_URL = "https://todo-list-a3zn.onrender.com";
 
 function Dashboard() {
   const navigate = useNavigate();
